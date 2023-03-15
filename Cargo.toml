@@ -1,0 +1,14 @@
+[package]
+name = "rust_port_scanner"
+version = "0.1.0"
+authors = ["carlo occhiena"]
+edition = "2021"
+description = "A port scanner build on Kerkour tutorial"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] } # I\O handling
+anyhow = "1.0" # error management 
+futures = "0.3" # async programming 
+clap = "2.33" # command line argument parser
