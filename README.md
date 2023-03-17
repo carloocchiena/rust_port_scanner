@@ -4,4 +4,8 @@ Command line port scanner made in Rust as a learning project. Could be runned on
 I created the tool following along the article - newsletter of [KERKOUR](https://kerkour.com/rust-fast-port-scanner)<br>
 The tool can be runned on my public [Replit repository](https://replit.com/@carlo_/rustportscanner?v=1)
 
-example: $ cargo run -- google.com 
+example: `$ cargo run -- google.com` 
+
+In order to extract it as a runnable .exe file: <br>
+`$ cargo clean`
+`$ cargo build --release`
