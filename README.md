@@ -5,7 +5,7 @@ I created the tool following along the article - newsletter of [KERKOUR](https:/
 The tool can be runned on my public [Replit repository](https://replit.com/@carlo_/rustportscanner?v=1)
 
 example: `$ cargo run -- google.com` 
-
+<br>
 In order to extract it as a runnable .exe file: <br>
-`$ cargo clean`
-`$ cargo build --release`
+`$ cargo clean`<br>
+`$ cargo build --release`<br>
